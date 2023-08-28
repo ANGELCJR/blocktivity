@@ -15,8 +15,13 @@ body {
 }
 
 .btimg {
+  padding: 70px 20px; /* Adjust the top and bottom padding */
+  margin-top: 20px;   /* Add margin to push the button down */
   width: 150px; /* Adjust width as needed */
-  margin: 100px;
+}
+img.btimg {
+  margin-top: 100px;   /* Add margin to push the button down */
+
 }
 
 
@@ -26,6 +31,7 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
   width: 300px;
+  border-radius: 20px;
 }
 
 .block-button {
