@@ -6,7 +6,6 @@ chrome.storage.sync.get({ blockedUrls: [] }, function(result) {
     const blockPrompt = `
       <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; color: white; display: flex; justify-content: center; align-items: center; font-size: 24px; z-index: 9999;">
         This page has been blocked by an Blocktivity.<br>
-        <img src="stop-sign-png-27208 (1).png" alt="Blocked Image" style="max-width: 100%; max-height: 100%;">
       </div>
     `;
 
