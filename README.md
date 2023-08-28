@@ -27,29 +27,10 @@ Welcome to Blocktivity - your ultimate productivity tracker! Blocktivity is a po
 
 ### Installation
 
-1. Clone this repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/blocktivity.git
-   ```
+## Watch this video on how to install blocktivity.
 
-2. Navigate to the project directory.
-   ```bash
-   cd blocktivity
-   ```
 
-3. Install the necessary dependencies.
-   ```bash
-   npm install
-   ```
 
-### Usage
-
-1. Start the Blocktivity application.
-   ```bash
-   npm start
-   ```
-
-2. Access the application through your preferred web browser at `http://localhost:3000`.
 
 ## Usage Tips
 
