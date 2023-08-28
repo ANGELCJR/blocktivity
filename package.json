@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "silver-tribble",
   "version": "1.0.0",
   "description": "productivity tracker",
@@ -6,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "notif": "notification-catcher notif.js"
   },
   "repository": {
     "type": "git",
@@ -27,9 +29,15 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.21.4"
+    "notifme-sdk": "^0.2.1",
+    "notifme-template": "^1.0.0",
+    "sequelize": "^6.21.4",
+    "uuid": "^9.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^3.0.1",
+    "notification-catcher": "^1.2.1"
   }
 }

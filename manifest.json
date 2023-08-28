@@ -1,11 +1,47 @@
 {
-    "manifest_version": 2,
-    "name": "Blocktivity",
-    "version": "0.1.1",
-    "content_scripts": [
+  "manifest_version": 3,
+  "name": "blocktivity",
+  "version": "0.1.2",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "/dist/background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
       {
-        "matches": ["<all_urls>"],
-        "js": [Script.js"]
+        "id": "rules1",
+        "enabled": true,
+        "path": "rules.json"
       }
-
-  
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "0414e321bf9250b48379d987a5fc2e3d-32bits-16.png",
+    "48": "0414e321bf9250b48379d987a5fc2e3d-32bits-48.png",   
+    "128": "stop-sign-128.png"   
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["rules.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

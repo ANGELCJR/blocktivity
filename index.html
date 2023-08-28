@@ -1,55 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <head>
     <title>Blocktivity</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="script.js" defer></script>
-    <script type = "text/javascript">  
-        function fun() {  
-            alert ("Instagram.com is now blocked."); 
-        }
-  </script> 
-</head>
-
-
-<body>
-    <div class="timer">
-        <span class="timer__part timer__part--minutes">00</span>
-        <span class="timer__part">:</span>
-        <span class="timer__part timer__part--seconds">00</span>
-        <button type="button" class="timer__btn timer__btn--control timer__btn--start">
-            <span class="material-icons">play_arrow</span>
-        </button>
-        <button type="button" class="timer__btn timer__btn--reset">
-            <span class="material-icons">timer</span>
-        </button>
-    </div>
-    <header>
-        <h1>
-            <img src="./images/stop-sign-png-27208 (1).png">
-        </h1>
-    </header>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <div class="container">
-        <input type="text" name="search" placeholder="Insert a web address (ex: Instagram.com)" id="input" />
-        <form autocomplete="off"></form>
-        <ul class="list"></ul>
-        <a class="seac" class="search-btn">
-          <i class="fas fa-search" onclick = "fun();" ></i>
-        </a>
+      <header>
+        <h1 class="welcome">BLOCKTIVITY</h1>
+      </header>
+      <h1 class="intro">
+        <span>UNLOCK YOUR PEAK PRODUCTIVITY</span>
+        <span>ELEVATE EVERY TASK WITH EASE</span>
+      </h1>
+      <h1 class="mid">
+        <span>Blocktivity is a free to use chrome extension</span>
+        <span>allowing you to block websites you find distracting.</span>
+      </h1>
+      <div class="vid-container">
+        <video class="vidbc" autoplay loop muted playsinline>
+          <source src="Untitled.mp4" type="video/mp4">
+        </video>
+      </div>     
+          <div class="ag-courses_item">
+            <a id="item-link-1" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="ag-courses-item_title">
+                Add your desired website you want to block
+              </div>
+            </a>
+          </div>
+          <div class="ag-courses_item">
+            <a id="item-link-2" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="ag-courses-item_title">
+                Boost Your Productivity
+              </div>
+            </a>
+          </div> 
+          <div class="ag-courses_item">
+            <a id="item-link-3" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="ag-courses-item_title">
+                Take control of your workday
+              </div>
+            </a>
+          </div>    
+          <div class="image-container">
+            <img src="2328708.png" alt="social media" class="small-image">
+          </div> 
+          <div class="image-container">
+            <img src="up-arrow-png-27178.png" alt="arrow" class="small-image2">
+          </div> 
+          <div class="image-container">
+            <img src="kindpng_2856478.png" alt="arrow" class="small-image3">
+          </div> 
+      <footer>
+        <div class="today">Click the image below to download Blocktivity today</div>
+        <div class="center">
+          <a href="path/to/BLOCKTIVITYV1.0.1.zip" download>
+            <img src="stop-sign-128.png"  alt="Download folder" />
+          </a>
+        </div>
+      </footer>
     </div>
-    
-   
-
-
-
-</body>
-
-
-
-
+    <script src="index.js"></script>
+  </body>
 </html>

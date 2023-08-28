@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #171717;
+}
+
+.container{
+  width: 100%;
+  grid-template-columns: 7rem auto 23rem;
+}
+
+header{
+  color: #FAF9F6;
+  text-align: center;
+  left: -100px;
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+  padding: 1rem; /* Add some padding for better spacing */
+}
+
+.welcome {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vidbc{
+  filter: brightness(30%);
+  backdrop-filter: blur(100px);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 20px; /* Adjust the margins as needed */
+  margin-bottom: 100px;
+}
+
+
+.mid {
+  color: white;
+  font-size: 20px;
+  line-height: 1.2; /* Adjust the line-height value to reduce space between lines */
+  margin: 100px 0; /* Add some vertical spacing between the spans */
+  font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mid span {
+  display: block;
+  margin: 15px 0; /* Add some vertical spacing between the spans */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.intro {
+  color: #FAF9F6;
+  font-family: Poppins,sans-serif;
+  letter-spacing: 1px;
+  margin-top: 200px;
+}
+
+.intro span {
+  display: block; /* Stack the spans on top of each other */
+  margin: 25px 0; /* Add some vertical spacing between the stacked spans */
+  font-size: 40px; /* Adjust the font size as needed */
+}
+
+
+.today {
+  color: #FAF9F6;
+  font-size: larger;
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 300px; /* Adjust the margin-top value to move it down */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.vid-container {
+  max-width: 60%;
+  max-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.vidbc {
+  filter: brightness();
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 30px; /* Add margin to move the video down */
+}
+
+.image-container {
+  margin-top: -1050px; /* Adjust the margin-top value as needed */
+  left: 200px; /* Adjust the left value to move it to the left */
+  z-index: 2;
+}
+
+
+.small-image {
+  max-width: 400px;
+  height: auto;
+  margin-left: -260px; /* Adjust the value to move the image to the left */
+  z-index: 2;
+  position: relative;
+}
+
+.small-image2{
+  max-width: 200px;
+  height: auto;
+  margin-left: -260px; /* Adjust the value to move the image to the left */
+  z-index: 2;
+  position: relative;
+  margin-top: 1050px; /* Adjust the margin-top value as needed */
+}
+
+.small-image3 {
+  max-width: 125px;
+  height: auto;
+  margin-left: -260px; /* Adjust the value to move the image to the left */
+  z-index: 2;
+  position: relative;
+  margin-top: 1150px; /* Adjust the margin-top value as needed */
+}
+
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  z-index: 0;
+}
+.ag-courses_item {
+  flex-basis: calc(25% - 30px); /* Adjust the flex-basis value */
+  max-width: 250px; /* Limit the maximum width of the item */
+  max-height: 300px; /* Limit the maximum height of the item */
+  margin: 100px auto;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 28px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #121212;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #f9b234;
+
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #ff5100;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #952aff;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #0fe021;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+}
+
+@media (min-width: 1238px) {
+  .ag-courses_item {
+    flex-basis: calc(50% - 200px); /* Adjust the flex-basis value */
+  }
+}
+
+  
+@media (max-width: 480px) {
+  header, footer {
+    font-size: 1.5em;
+  }
+  .today {
+    font-size: 1.5em;
+  }
+  .container{
+    width: 100%;
+    grid-template-columns: 7rem auto 23rem;
+  }
+
+  .vid-container {
+    max-width: 90%;
+    max-height: 200vh;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .vidbc {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .small-image {
+    max-width: 400px;
+    height: auto;
+    margin-left: -210px; /* Adjust the value to move the image to the left */
+    z-index: 2;
+    position: relative;
+  }
+  
+  .small-image2{
+    max-width: 140px;
+    height: auto;
+    margin-left: -260px; /* Adjust the value to move the image to the left */
+    z-index: 2;
+    position: relative;
+    margin-top: 1100px; /* Adjust the margin-top value as needed */
+  }
+  .small-image3 {
+    max-width: 125px;
+    height: auto;
+    margin-left: -260px; /* Adjust the value to move the image to the left */
+    z-index: 2;
+    position: relative;
+    margin-top: 1155px; /* Adjust the margin-top value as needed */
+  }
+  .image-container {
+    margin-top: -1055px; /* Adjust the margin-top value as needed */
+    left: 200px; /* Adjust the left value to move it to the left */
+    z-index: 2;
+  }
+}
