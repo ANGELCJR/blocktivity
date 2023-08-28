@@ -31,6 +31,10 @@ Welcome to Blocktivity - your ultimate productivity tracker! Blocktivity is a po
 
 
 
+https://github.com/ANGELCJR/blocktivity/assets/79959345/71a81740-b3f4-48ed-8343-7d9d2749ef81
+
+
+
 
 ## Usage Tips
 
