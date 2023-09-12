@@ -27,21 +27,13 @@ Welcome to Blocktivity - your ultimate productivity tracker! Blocktivity is a po
 
 ### Installation
 
-## Watch this video on how to install blocktivity.
 
-
-
-https://github.com/ANGELCJR/blocktivity/assets/79959345/71a81740-b3f4-48ed-8343-7d9d2749ef81
-
-
+To install Blocktivity, go to https://chrome.google.com/webstore/category/extensions and type blocktivity into the search bar and install!
 
 
 ## Usage Tips
 
 - **Task Naming**: Use clear and descriptive names for your tasks to quickly identify their purpose.
-- **Time Blocking**: Allocate specific time blocks for different tasks to maintain focus and avoid multitasking.
-- **Regular Updates**: Update your task statuses regularly to keep track of your progress accurately.
-- **Utilize Reports**: Make the most of the detailed reports to identify areas for improvement in your workflow.
 
 ## FAQ
 
