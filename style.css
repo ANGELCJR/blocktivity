@@ -11,7 +11,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background: #171717;
+  background: #fffafa;
 }
 
 .container{
@@ -51,7 +51,7 @@ header{
 
 
 .mid {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   line-height: 1.2; /* Adjust the line-height value to reduce space between lines */
   margin: 100px 0; /* Add some vertical spacing between the spans */
@@ -67,7 +67,7 @@ header{
 
 
 .intro {
-  color: #FAF9F6;
+  color: #000000;
   font-family: Poppins,sans-serif;
   letter-spacing: 1px;
   margin-top: 200px;
@@ -81,7 +81,7 @@ header{
 
 
 .today {
-  color: #FAF9F6;
+  color: #000000;
   font-size: larger;
   font-family: monospace;
   font-weight: 600;
